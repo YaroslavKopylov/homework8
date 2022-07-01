@@ -1,0 +1,25 @@
+.logo {
+  font-family: Raleway;
+  @include font(700, 26px, 31px);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--general-black-color);
+}
+
+.logo-footer {
+  font-family: Raleway;
+  @include font(700, 26px, 31px);
+
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer-logo-studio {
+  color: var(--general-white-color);
+}

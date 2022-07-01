@@ -1,0 +1,30 @@
+.page-header {
+  position: relative;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+}
+
+.header-contact-icon-mail {
+  fill: currentColor;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+
+.header-contact-icon-tel {
+  fill: currentColor;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}

@@ -1,0 +1,25 @@
+.about-section {
+  padding-top: 0;
+}
+
+.about-image-item {
+  position: relative;
+}
+
+.about-image-suptext {
+  @extend %align;
+  @include font(700, 14px, 16px);
+  
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 370px;
+  height: 70px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--general-white-color);
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
