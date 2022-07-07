@@ -1,20 +1,25 @@
-.logo {
+.nav__logo-link {
   font-family: Raleway;
-  @include font(700, 26px, 31px);
+  @include font(700, 26px, 28px);
+  letter-spacing: 0.03em;
+  width: 134px;
+  height: 28px;
 }
-
-.logo-web {
+.nav__logo-link__blue {
   color: var(--accent-color);
 }
 
-.logo-studio {
+.nav__logo-link__black {
   color: var(--general-black-color);
 }
-
 .logo-footer {
   font-family: Raleway;
   @include font(700, 26px, 31px);
-
+  font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+  width: 154px;
+  height: 28px;
   text-decoration: none;
   display: inline-block;
   margin-bottom: 20px;
@@ -23,3 +28,50 @@
 .footer-logo-studio {
   color: var(--general-white-color);
 }
+
+@media screen and (min-width: 768px) {
+  // .logo-footer {
+  //   font-family: Raleway;
+  //   @include font(700, 26px, 31px);
+  //   font-weight: 700;
+  // font-size: 26px;
+  // line-height: 1.2;
+  //   width: 154px;
+  //   height: 28px;
+  //   text-decoration: none;
+  //   display: inline-block;
+  //   margin-bottom: 20px;
+  // }
+  // .logo-web {
+  //   color: var(--accent-color);
+  // }
+  // .footer-logo-studio {
+  //   color: var(--general-white-color);
+  // }
+}
+
+// .logo {
+//   font-family: Raleway;
+//   @include font(700, 26px, 31px);
+// }
+
+// .logo-web {
+//   color: var(--accent-color);
+// }
+
+// .logo-studio {
+//   color: var(--general-black-color);
+// }
+
+// .logo-footer {
+//   font-family: Raleway;
+//   @include font(700, 26px, 31px);
+
+//   text-decoration: none;
+//   display: inline-block;
+//   margin-bottom: 20px;
+// }
+
+// .footer-logo-studio {
+//   color: var(--general-white-color);
+// }

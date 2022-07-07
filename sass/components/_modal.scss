@@ -1,7 +1,7 @@
 .general-modal {
   position: absolute;
-  width: 528px;
-  height: 580px;
+  max-width: 450px;
+  height: 609px;
   padding: 40px;
   background-color: var(--general-white-color);
   top: 50%;
@@ -17,8 +17,59 @@
   @extend %align;
 
   margin-bottom: 12px;
-  @include font(700, 20px, 23px);
+  @include font(700, 20px, 30px);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--general-black-color);
 }
+
+.close-btn {
+  @extend %align;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+
+  background-color: transparent;
+  border-radius: 50%;
+  border-color: rgba(0, 0, 0, 0.1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .general-modal {
+    width: 528px;
+  }
+  
+}
+
+// .general-modal {
+//   position: absolute;
+//   width: 528px;
+//   height: 580px;
+//   padding: 40px;
+//   background-color: var(--general-white-color);
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   background: var(--general-white-color);
+//   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+//     0px 2px 1px rgba(0, 0, 0, 0.2);
+//   border-radius: 4px;
+// }
+
+// .modal-title {
+//   @extend %align;
+
+//   margin-bottom: 12px;
+//   @include font(700, 20px, 23px);
+//   text-align: center;
+//   letter-spacing: 0.03em;
+//   color: var(--general-black-color);
+// }
