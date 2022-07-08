@@ -5,7 +5,7 @@
 
   &__item {
     position: relative;
-// height: 404px;
+
     margin-bottom: 30px;
   }
   &__item:last-child {
@@ -45,7 +45,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
+    margin-bottom: 4px;
     .our-works & {
       color: var(--general-black-color);
     }

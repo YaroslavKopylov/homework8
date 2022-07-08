@@ -2,8 +2,7 @@
   font-family: Raleway;
   @include font(700, 26px, 28px);
   letter-spacing: 0.03em;
-  width: 134px;
-  height: 28px;
+
 }
 .nav__logo-link__blue {
   color: var(--accent-color);
