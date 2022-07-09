@@ -973,7 +973,7 @@ img {
 .clients {
   display: flex;
   flex-wrap: wrap;
-  margin: 15px;
+  margin: -15px;
 }
 
 .clients-list-item {
