@@ -55,6 +55,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     list-style: none;
+    margin-left: auto;
   }
   .page-header {
     position: relative;
@@ -90,12 +91,10 @@
     letter-spacing: 0.02em;
     list-style: none;
     display: flex;
-    margin-left: 88px;
+    // margin-left: 88px;
   }
   
-  .page-header__menu {
-    margin-right: 88px;
-  }
+ 
   .page-header__menu .page-header__item {
     margin-right: 50px;
   }
@@ -110,6 +109,9 @@
     width: 14px;
     height: 10px;
     margin-right: 8px;
+  }
+  .page-header__menu {
+    margin-left: 88px;
   }
   .page-header-menu-contacts__icon-tel{
     fill: currentColor;
@@ -148,7 +150,7 @@
     padding-bottom: 24px;
   }
   .page-header__menu {
-    margin-left: 92px;
+    margin-left: 93px;
   }
   .page-header__menu .page-header__item {
     margin-right: 50px;
